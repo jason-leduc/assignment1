@@ -23,13 +23,26 @@ html {
 }
 
 img {
-	width: 100%;
+	width: 75%;
     display: block;
+    margin: auto;
 }
 
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
+    background-color: grey;
+}
+
+.masthead {
+    background-color: black;
+    overflow: hidden;
+} 
+
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;
 }
 
 article {
@@ -48,15 +61,16 @@ h1 {
 }
 
 h1 {
-    color: red;
+    color: darkred;
+}
+
+h2 {
+    color: darkred;
 }
 
 p {
     line-height: 1.5rem;
     margin: 0 0 1.5rem;
-    
-    /* letter-spacing: 2rem; */
-    /* word-spacing: 2rem; */
 }
 
 .dropcap:first-letter {
@@ -64,5 +78,44 @@ p {
     font-weight: bold;
     float: left;
     margin: 1.7rem .5rem 0 0;
-    color: red;
+    color: darkred;
+}
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p strong {
+    color: darkred;
+}
+
+em {
+    font-style: italic;
+    color: darkred;
+}
+
+footer {
+    background-color: black;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: .75rem;
+    margin: .5rem 5% 5rem;
+    color: white;
+}
+
+footer a {
+    color: white;
 }
